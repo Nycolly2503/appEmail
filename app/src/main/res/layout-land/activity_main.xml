@@ -16,7 +16,6 @@
         android:ems="10"
         android:hint="@string/et_Email_hint"
         android:inputType="textPersonName"
-        android:text="Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +31,6 @@
         android:ems="10"
         android:hint="@string/et_Assunto_hint"
         android:inputType="textPersonName"
-        android:text="Assunto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmail" />
@@ -60,7 +58,6 @@
         android:ems="10"
         android:hint="@string/et_Menssagem_hint"
         android:inputType="textPersonName"
-        android:text="Texto"
         app:layout_constraintBottom_toTopOf="@+id/btnEnviar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
